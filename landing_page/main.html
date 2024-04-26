@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <input type="radio" id="gold" name="plan" class="toggle-input" checked>
+            <label for="gold" class="toggle-label">
+                <h2>Gold</h2>
+                <p class="price">$9.99/month</p>
+                <ul class="products">
+                    <li>Premium Support</li>
+                    <li>Advanced Analytics</li>
+                    <li>Custom Templates</li>
+                </ul>
+                <div class="customization">
+                    <label for="currency-gold">Currency:</label>
+                    <select id="currency-gold" class="currency-dropdown">
+                        <option value="USD">$</option>
+                        <option value="EUR">€</option>
+                        <option value="GBP">£</option>
+                    </select>
+                </div>
+            </label>
+        </div>
+        <div class="card">
+            <input type="radio" id="silver" name="plan" class="toggle-input">
+            <label for="silver" class="toggle-label">
+                <h2>Silver</h2>
+                <p class="price">$19.99/month</p>
+                <ul class="products">
+                    <li>Priority Email Support</li>
+                    <li>Basic Analytics</li>
+                    <li>Standard Templates</li>
+                    <li>Access to Community Forum</li>
+                </ul>
+                <div class="customization">
+                    <label for="currency-silver">Currency:</label>
+                    <select id="currency-silver" class="currency-dropdown">
+                        <option value="USD">$</option>
+                        <option value="EUR">€</option>
+                        <option value="GBP">£</option>
+                    </select>
+                </div>
+            </label>
+        </div>
+        <div class="card">
+            <input type="radio" id="bronze" name="plan" class="toggle-input">
+            <label for="bronze" class="toggle-label">
+                <h2>Bronze</h2>
+                <p class="price">$29.99/month</p>
+                <ul class="products">
+                    <li>Email Support</li>
+                    <li>Basic Templates</li>
+                    <li>Standard Features</li>
+                    <li>Limited Data Storage</li>
+                    <li>Access to Knowledge Base</li>
+                </ul>
+                <div class="customization">
+                    <label for="currency-bronze">Currency:</label>
+                    <select id="currency-bronze" class="currency-dropdown">
+                        <option value="USD">$</option>
+                        <option value="EUR">€</option>
+                        <option value="GBP">£</option>
+                    </select>
+                </div>
+            </label>
+        </div>
+    </div>
+</body>
+</html>
